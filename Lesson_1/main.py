@@ -1,26 +1,9 @@
 class Roomba:
-
-    def __init__(self, name):
-        self.name = name
-        self._squashed = False
-
-    def __str__(self):
-        if self._squashed:
-            return f"Hi my name is {self.name} and I am squashed"
-        else:
-            return f"Hi my name is {self.name} and I feeling fine"
-
-    def squish(self):
-        self._squashed = True
+    pass
 
 
 class Plumber:
-
-    def __init__(self, name):
-        self.name = name
-
-    def squash(self, roomba):
-        roomba.squish()
+    pass
 
 
 def main():
